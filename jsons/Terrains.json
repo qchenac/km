@@ -121,7 +121,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert"],
 		"rough": true,
-		"uniques": ["Rare feature","Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"]
+		"uniques": ["Rare feature"]
 	}
 	{
 		"name": "Fallout",
