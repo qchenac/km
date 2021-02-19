@@ -81,11 +81,14 @@
 	{
 		"name": "Warrior",
 		"unitType": "Melee",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
+		"movement": 200,
+		"strength": 8000,
+		"cost": 1,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": ["Ignores terrain cost","Founds a new city",
+			"+2 Visibility Range"],
+		"promotions": ["Mystic Blade","Quick Study","Amphibious","Ambition","Invulnerability","Restlessness"],
 		"attackSound": "nonmetalhit"
 	},
 	{
