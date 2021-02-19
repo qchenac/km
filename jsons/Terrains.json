@@ -114,13 +114,12 @@
 	},
 	{
 		"name": "Desert Hill",
-		"type": "TerrainFeature",
+		"type": "Land",
 		"production": 2,
 		"movementCost": 2,
-		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert"],
 		"rough": true,
+		
 		// "uniques": ["Rare feature"]
 	}
 	{
