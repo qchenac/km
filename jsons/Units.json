@@ -7,7 +7,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 75,
 		"uniques": ["Can build improvements on tiles"]
 	},
 	{
@@ -41,7 +41,7 @@
 		"name": "Caravan", //modded
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 75,
+		"cost": 50,
 		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
 			"Can construct [Land Trade Route (Gold)]","Consumes [1] [Trade Route]"],
 		"requiredTech": "Animal Husbandry"
@@ -50,7 +50,7 @@
 		"name": "Cargo Ship", //modded
 		"unitType": "WaterCivilian",
 		"movement": 4,
-		"cost": 100,
+		"cost": 50,
 		"uniques": ["Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
 			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]"],
 		"requiredTech": "Sailing"
@@ -244,7 +244,7 @@
 	},
 	{
 		"name": "Chariot Archer",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -257,7 +257,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
@@ -272,7 +272,7 @@
 	},
 	{
 		"name": "War Elephant",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -303,7 +303,7 @@
 		"name": "Horse Archer", //modded
 		"replaces": "Chariot Archer",
 		"uniqueTo": "The Huns",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
@@ -498,9 +498,8 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["Consumes [1] [Iron]"],
-		"promotions": ["Mystic Blade"],
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Mystic Blade","Quick Study","Amphibious"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -637,9 +636,9 @@
 		"rangedStrength": 26,
 		"cost": 120,
 		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
+		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "throw"
 	},
 	{
@@ -1684,33 +1683,33 @@
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Khan",
