@@ -630,7 +630,7 @@
 		"leaderName": "Sejong",
 		"adjective": ["Korean"],
 		// "startBias": ["Coast","Avoid [Tundra]","Desert","Desert Hill","Flood plains","Oasis"],
-		"startBias": ["Coast","Desert","Avoid [Tundra]","Flood plains"],
+		"startBias": ["Coast","Desert","Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "Greetings to you, exalted King Sejong the Great, servant to the people and protector of the Choson Dynasty! Your glorious vision of prosperity and overwhelming benevolence towards the common man made you the most beloved of all Korean kings. From the earliest days of your reign, the effort you took to provide a fair and just society for all was surpassed only by the technological advances spurred onwards by your unquenched thirst for knowledge. Guided by your wisdom, the scholars of the Jade Hall developed Korea's first written language, Hangul, bringing the light of literature and science to the masses after centuries of literary darkness.",
