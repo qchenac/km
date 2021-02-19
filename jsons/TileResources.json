@@ -39,7 +39,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"terrainsCanBeFoundOn": ["Plains","Flood plains"],
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 0},
@@ -89,7 +89,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Desert Hill","Grassland","Plains","Hill"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
@@ -150,7 +150,7 @@
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert Hill","Jungle","Grassland","Plains","Desert","Tundra","Hill"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"gold": 3,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1}
@@ -158,7 +158,7 @@
 	{
 		"name": "Gold",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert Hill","Grassland","Plains","Desert","Hill"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1},
@@ -167,7 +167,7 @@
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert Hill","Desert","Tundra","Hill"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1},
@@ -176,7 +176,7 @@
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"terrainsCanBeFoundOn": ["Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
@@ -218,7 +218,7 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -272,7 +272,7 @@
 	{
 		"name": "Copper", //modded
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Tundra","Snow"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -306,7 +306,7 @@
 	{
 		"name": "Salt", //modded
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert Hill","Plains", "Desert", "Tundra"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"gold": 1,
 		"food": 1,
 		"improvement": "Mine",
