@@ -5,10 +5,9 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
+		"uniques": ["Can also be built on tiles adjacent to fresh water","Can be built outside your borders",
 			"[+1 Food] on [fresh water] tiles once [Civil Service] is discovered",
 			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
-		"Can be built outside your borders",
 		"shortcutKey": "F"
 	},
 	{
@@ -17,8 +16,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] once [Scientific Theory] is discovered"],
-		"Can be built outside your borders",
+		"uniques": ["Can be built outside your borders","[+1 Production] once [Scientific Theory] is discovered"],
+		
 		"shortcutKey": "L"
 	},
 	{
@@ -27,8 +26,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
-		"Can be built outside your borders",
+		"uniques": ["Can be built outside your borders","[+1 Production] once [Chemistry] is discovered"],
+		
 		"shortcutKey": "M"
 	},
 	{
@@ -37,8 +36,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] once [Economics] is discovered"],
-		"Can be built outside your borders",
+		"uniques": ["Can be built outside your borders","[+1 Gold] once [Economics] is discovered"],
+		
 		"shortcutKey": "T"
 	},
 	
@@ -48,14 +47,14 @@
 		"resourceTerrainAllow": ["Forest"],
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["[+1 Gold] once [Economics] is discovered"],
-		"Can be built outside your borders",
+		"uniques": ["Can be built outside your borders","[+1 Gold] once [Economics] is discovered"],
+		
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
-		"Can be built outside your borders",
+		
 		"techRequired": "Biology"
 	},
 	{
@@ -63,24 +62,24 @@
 		"resourceTerrainAllow": ["Desert Hill"],
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"Can be built outside your borders",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"]
+		
+		"uniques": ["Can be built outside your borders","[+1 Food] once [Fertilizer] is discovered"]
 	},
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"Can be built outside your borders",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		
+		"uniques": ["Can be built outside your borders","[+1 Food] once [Fertilizer] is discovered"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"Can be built outside your borders",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		
+		"uniques": ["Can be built outside your borders","[+1 Production] once [Chemistry] is discovered"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -88,7 +87,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"Can be built outside your borders",
+		
 		"uniques": ["[+1 Gold] once [Compass] is discovered"]
 	},
 
