@@ -165,6 +165,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"food": 1,
+		"unbuildable": true,
 		"production": 1,
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
