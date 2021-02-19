@@ -121,7 +121,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert"],
 		"rough": true,
-		"uniques": ["Rare feature"]
+		// "uniques": ["Rare feature"]
 	}
 	{
 		"name": "Fallout",
