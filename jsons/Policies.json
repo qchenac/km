@@ -12,7 +12,7 @@
 			},
 			{
 				"name": "Legalism",
-				"uniques": ["Immediately creates a cheapest available cultural building in each of your first 4 cities for free"],
+				"uniques": ["Immediately creates a cheapest available cultural building in each of your first 4 cities for free","[Great Engineer] is earned [100]% faster"],
 				"row": 1,
 				"column": 3
 			},
@@ -94,7 +94,7 @@
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"uniques":["+[15]% Production when constructing [Melee] units","[Great General] is earned [50]% faster","Free [Great General] appears"],
+				"uniques":["+[30]% Production when constructing [Melee] units","[Great General] is earned [50]% faster","Free [Great General] appears"],
 				"row": 1,
 				"column": 2
 			},
@@ -113,29 +113,32 @@
 			},
 			{
 				"name": "Military Caste",
-				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
+				"uniques": ["Gold cost of upgrading military units reduced by 33%",
+					    "+[100]% Production when constructing [Barracks]",
+					    "+[100]% Production when constructing [Armory]",
+					    "+[100]% Production when constructing [Military Academy]",
+					    "+[100]% Production when constructing [Heroic Epic]"],
 				"requires": ["Discipline"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Professional Army",
-				"uniques": ["Gold cost of upgrading military units reduced by 33%","+[50]% Production when constructing [Barracks]",
-					"+[50]% Production when constructing [Armory]","+[50]% Production when constructing [Military Academy]"],
+				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
 				"requires": ["Military Caste"],
 				"row": 3,
 				"column": 4
 			},
 			{
 				"name": "Honor Complete",
-				"uniques": ["Earn [10]% of [military] opponent's [Cost] as [Gold] for kills"],
+				"uniques": ["Earn [20]% of [military] opponent's [Cost] as [Gold] for kills"],
 			}
 		]
 	},
 	{
 		"name": "Piety",
 		"era": "Ancient era",
-		"uniques": ["+[50]% Production when constructing [Culture] buildings","Unlocks building the Great Mosque of Djenne"],
+		"uniques": ["+[100]% Production when constructing [Culture] buildings","Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -180,41 +183,46 @@
 	{
 		"name": "Aesthetics",
 		"era": "Classical era",
-		"uniques": ["[Great Artist] is earned [50]% faster","Unlocks building the Uffizi"],
+		"uniques": ["[Great Artist] is earned [100]% faster","Unlocks building the Uffizi"],
 		"policies": [
 			{
 				"name": "Cultural Centers",
 				"uniques": ["[+1 Happiness] from every [Monument]","[+1 Happiness] from every [Temple]",
-					"[+1 Happiness] from every [Monastery]"],
+					"[+1 Happiness] from every [Monastery]","[+1 Happiness] from every [Opera House]",
+				        "[+1 Happiness] from every [Museum]","[+1 Happiness] from every [Broadcast Tower]",
+				"[+1 Culture] from every [Monument]","[+1 Culture] from every [Temple]",
+					"[+1 Culture] from every [Monastery]","[+1 Culture] from every [Opera House]","[+1 Culture] from every [Museum]",
+					"[+1 Culture] from every [Broadcast Tower]","[+1 Culture] from every [Hotel]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Fine Arts",
-				"uniques": ["50% of excess happiness added to culture towards policies"],
+				"uniques": ["50% of excess happiness added to culture towards policies","Culture cost of adopting new Policies reduced by [10]%"],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Flourishing of the Arts",
-				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]","Empire enters golden age",
+					    "+[25]% [Gold] from every [Temple]","[+3 Gold] from every [Landmark]"],
 				"requires": ["Cultural Centers","Fine Arts"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Artistic Genius",
-				"uniques": ["Free [Great Artist] appears"],
+				"uniques": ["Free [Great Artist] appears","[+3 Culture] from every [Landmark]"],
 				"requires": ["Cultural Centers","Fine Arts"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Cultural Exchange",
-				"uniques": ["+[25]% [Culture] [in all cities]","[+1 Culture] from every [Land Trade Route (Food)]",
-					"[+1 Culture] from every [Land Trade Route (Production)]","[+1 Culture] from every [Land Trade Route (Gold)]",
-					"[+1 Culture] from every [Sea Trade Route (Food)]","[+1 Culture] from every [Sea Trade Route (Production)]",
-					"[+1 Culture] from every [Sea Trade Route (Gold)]"],
+				"uniques": ["+[25]% [Culture] [in all cities]","[+2 Culture] from every [Land Trade Route (Food)]",
+					"[+2 Culture] from every [Land Trade Route (Production)]","[+2 Culture] from every [Land Trade Route (Gold)]",
+					"[+2 Culture] from every [Sea Trade Route (Food)]","[+2 Culture] from every [Sea Trade Route (Production)]",
+					"[+2 Culture] from every [Sea Trade Route (Gold)]"],
 				"requires": ["Flourishing of the Arts"],
 				"row": 3,
 				"column": 2
@@ -367,7 +375,7 @@
 	{
 		"name": "Rationalism",
 		"era": "Renaissance era",
-		"uniques": ["Production to science conversion in cities increased by 33%","Unlocks building the Porcelain Tower"],
+		"uniques": ["Production to science conversion in cities increased by 33%","[Great Scientist] is earned [100]% faster","Unlocks building the Porcelain Tower"],
 		"policies": [
 			{
 				"name": "Secularism",
@@ -384,7 +392,7 @@
 			},
 			{
 				"name": "Free Thought",
-				"uniques": ["[+1 Science] from every [Trading post]", "+[17]% [Science] from every [University]"],
+				"uniques": ["[+1 Science] from every specialist", "+[17]% [Science] from every [University]"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 1
@@ -467,7 +475,7 @@
 			},
 			{
 				"name": "Universal Suffrage",
-				"uniques": ["[+1 Production] per [5] population [in all cities]"],
+				"uniques": ["[+1 Production] per [2] population [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
@@ -479,7 +487,7 @@
 			},
 			{
 				"name": "Free Speech",
-				"uniques": ["[+1 Culture] per [2] population [in all cities]"],
+				"uniques": ["[+1 Culture] per [1] population [in all cities]"],
 				"requires": ["Constitution"],
 				"row": 2,
 				"column": 1
@@ -493,7 +501,7 @@
 			},
 			{
 				"name": "Freedom Complete",
-				"uniques": ["Tile yield from Great Improvements +100%","Golden Age length increases +50%"]
+				"uniques": ["Tile yield from Great Improvements +100%","Golden Age length increases +100%"]
 			}
 		]
 	},
