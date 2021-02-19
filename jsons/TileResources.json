@@ -12,7 +12,7 @@
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert Hill","Plains"],
+		"terrainsCanBeFoundOn": ["Desert Hill","Plains","Grassland"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
@@ -69,7 +69,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert Hill","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
