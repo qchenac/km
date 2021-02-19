@@ -69,7 +69,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Desert Hill","Desert"],
+		"terrainsCanBeFoundOn": ["Desert Hill","Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -79,7 +79,7 @@
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Bronze Working",
-		"terrainsCanBeFoundOn": ["Desert Hill","Desert"],
+		"terrainsCanBeFoundOn": ["Desert Hill"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -218,7 +218,7 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -226,7 +226,7 @@
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Desert"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
