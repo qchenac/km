@@ -443,7 +443,7 @@
 	// Uniques
 	{
 		"name": "Morale", // Heroic Epic
-		"effect": "+[15]% Combat Strength"
+		"effect": "+[30]% Combat Strength"
 	},
 	{
 		"name": "Phoenician Heritage", // Carthage
@@ -507,19 +507,19 @@
 	},
 	{
 		"name": "Ambition",
-		"effect": "+[50]% Strength when attacking",
+		"uniques": ["+[50]% Strength when attacking","[100]% Bonus XP gain"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
 		"unitTypes": ["Melee"]
 	},
 	{
 		"name": "Invulnerability",
-		"effect": "All healing effects doubled",
+		"uniques": ["All healing effects doubled","Heals [100] damage if it kills a unit","+[30]% Strength when defending"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
 		"unitTypes": ["Melee"]
 	},
 	{
 		"name": "Restlessness",
-		"effect": "1 additional attack per turn",
+		"uniques": ["+1 Movement","1 additional attack per turn","Ignores terrain cost","Can move after attacking"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
 		"unitTypes": ["Melee"]
 	},
