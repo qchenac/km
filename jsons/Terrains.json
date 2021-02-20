@@ -142,7 +142,7 @@
 		"unbuildable": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		//"uniques": ["Fresh water", "Rare feature"]
+		"uniques": ["Fresh water", "Rare feature"]
 	},
 	{
 		"name": "Flood plains",
@@ -151,14 +151,15 @@
 		"gold": -1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"]
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water"]
 	},
 	{
 		"name": "Ice",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
-		"occursOn": ["Ocean", "Coast"]
+		"occursOn": ["Ocean"]
 	},
 	{
 		"name": "Atoll",
