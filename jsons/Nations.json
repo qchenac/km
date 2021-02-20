@@ -66,7 +66,7 @@
 		"name": "Assyria",
 		"leaderName": "Ashurbanipal",
 		"adjective": ["Assyrian"],
-		"startBias": ["Avoid [Tundra]"],
+		"startBias": ["Avoid [Coast]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
@@ -271,6 +271,7 @@
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
+		"startBias": ["Avoid [Coast]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 //		"preferredVictoryType": "Domination",
 		
@@ -475,7 +476,7 @@
 		"name": "The Huns",
 		"leaderName": "Attila",
 		"adjective": ["Hunnic"],
-		"startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
+		"startBias": ["Avoid [Coast]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Your men stand proudly to greet you, Great Attila, grand warrior and ruler of the Hunnic empire. Together with your brother Bleda you expanded the boundaries of your empire, becoming the most powerful and frightening force of the 5th century. You bowed the Eastern Roman Emperors to your will and took kingdom after kingdom along the Danube and Nisava Rivers. As the sovereign ruler of the Huns, you marched your army across Europe into Gaul, planning to extend your already impressive lands all the way to the Atlantic Ocean. Your untimely death led to the quick disintegration and downfall of your empire, but your name and deeds have created an everlasting legacy for your people.",
@@ -693,7 +694,7 @@
 		"name": "Mongolia",
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
-		"startBias": ["Plains"],
+		"startBias": ["Plains","Avoid [Coast]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Greetings, o great Temujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans of the Greeks.",
@@ -1114,7 +1115,7 @@
 		"name": "Zulu",
 		"leaderName": "Shaka",
 		"adjective": ["Zulu"],
-		"startBias": ["Avoid [Jungle]"],
+		"startBias": ["Avoid [Coast]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Your people kneel before you, great warrior Shaka of the Zulu Kingdom. As you rose from a place of exile to become the true leader of the Zulus, you ushered in changes throughout the Zulu society, implementing new laws and cultural reforms that strengthened the position of your kingdom. However, it was your tenacity in the art of war that truly established your reputation, as your tactics and strategies on the battlefield forever changed the face of combat across the plains of southern Africa.",
