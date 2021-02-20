@@ -50,7 +50,7 @@
 		"name": "Cargo Ship", //modded
 		"unitType": "WaterCivilian",
 		"movement": 4,
-		"cost": 50,
+		"cost": 75,
 		"uniques": ["Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
 			"Can construct [Sea Trade Route (Gold)]","Consumes [1] [Trade Route]"],
 		"requiredTech": "Sailing"
