@@ -184,7 +184,7 @@
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0,
-		"startingUnits": ["Pathfinder", "Warrior"],
+		"startingUnits": ["Settler", "Warrior"],
 		"aiCityGrowthModifier": 0.6,
 		"aiUnitCostModifier": 0.5,
 		"aiBuildingCostModifier": 0.5,
