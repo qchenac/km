@@ -6,14 +6,14 @@
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
-		"movement": 200,
+		"movement": 2,
 		"cost": 70,
-		"uniques": ["Can build improvements on tiles","Founds a new city","Ignores terrain cost"]
+		"uniques": ["Can build improvements on tiles"]
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 20,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","Ignores terrain cost"],
