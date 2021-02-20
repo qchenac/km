@@ -443,7 +443,7 @@
 	// Uniques
 	{
 		"name": "Morale", // Heroic Epic
-		"effect": "+[30]% Combat Strength"
+		"effect": "+[15]% Combat Strength"
 	},
 	{
 		"name": "Phoenician Heritage", // Carthage
