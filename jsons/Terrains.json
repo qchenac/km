@@ -60,7 +60,7 @@
 		"production": 2,
 		"movementCost": 2,
 		"defenceBonus": 0.25,
-		"RGB": [105,125,72],
+		"RGB": [230, 230, 113],
 		"rough": true
 	},
 	{
