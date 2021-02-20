@@ -1093,7 +1093,7 @@
         "cost": 360,
         "hurryCostModifier": 0,
         "maintenance": 3,
-        "uniques": ["Must be on [River]","[+1 Production] from [River] tiles in this city","Consumes [1] [Aluminum]"],
+        "uniques": ["[+1 Production] from [River] tiles in this city","Consumes [1] [Aluminum]"],
         "requiredTech": "Electricity"     
     },
     
