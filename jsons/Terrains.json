@@ -223,7 +223,7 @@
 	},
 	{
 		"name": "Grand Mesa",
-		"type": "NaturalWonder",
+		"type": ["NaturalWonder","TerrainFeature"],
 		"production": 2,
 		"gold": 3,
 		"food": 2,
