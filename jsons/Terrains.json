@@ -183,7 +183,7 @@
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 40
+		"weight": 10
 	},
 	{
 		"name": "Old Faithful",
@@ -195,7 +195,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "El Dorado",
@@ -207,7 +207,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Grants 500 Gold to the first civilization to discover it"],
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Fountain of Youth",
@@ -219,7 +219,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"],
-		"weight": 40
+		"weight": 10
 	},
 	{
 		"name": "Grand Mesa",
@@ -231,7 +231,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Mount Fuji",
@@ -243,7 +243,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Krakatoa",
@@ -254,7 +254,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Rock of Gibraltar",
@@ -265,7 +265,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Cerro de Potosi",
@@ -276,7 +276,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	},
 	{
 		"name": "Barringer Crater",
@@ -288,6 +288,6 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 1
+		"weight": 0
 	}
 ]	
