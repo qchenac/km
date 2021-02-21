@@ -226,7 +226,7 @@
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Desert","Desert Hill","Plains","Tundra","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
