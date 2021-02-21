@@ -151,7 +151,7 @@
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1
-        "uniques": ["[+4 Culture] from every [Great Barrier Reef]","[+4 Culture] from every [Old Faithful]","[+4 Culture] from every [El Dorado]","[+4 Culture] from every [Fountain of Youth]","[+4 Culture] from every [Grand Mesa]","[+4 Culture] from every [Mount Fuji]","[+4 Culture] from every [Krakatoa]","[+4 Culture] from every [Rock of Gibraltar]","[+4 Culture] from every [Cerro de Potosi]","[+4 Culture] from every [Barringer Crater]","Not displayed as an available construction without [Pantheons]"]
+        "uniques": ["[+4 Culture] from every [NaturalWonder]"]
 
     },
     {
