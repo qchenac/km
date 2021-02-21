@@ -231,8 +231,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Fresh water","Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"]
-		
+		"weight": 10
 	},
 	{
 		"name": "Mount Fuji",
