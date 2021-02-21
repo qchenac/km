@@ -196,9 +196,9 @@
 	{
 		"name": "Trireme",
 		"unitType": "WaterMelee",
-		"movement": 1,
+		"movement": 4,
 		"strength": 10,
-		"cost": 1,
+		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
