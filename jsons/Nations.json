@@ -655,6 +655,8 @@
 			"Melee units pay no movement cost to pillage",
 			   "[Military] units gain [300]% more Experience from combat",
 			   "+[2000]% Production when constructing [Worker] [in all cities]",
+			   "+[2000]% Production when constructing [Work Boats] [in all cities]",
+			    
 			   "Tile improvement speed +25%",
 			    "[Military] units gain the [Mystic Blade] promotion",
 			    "[Military] units gain the [Ambition] promotion",
