@@ -1005,6 +1005,23 @@ TileSets/FantasyHex/Tiles/Desert+Desert Hill+Kasbah
   orig: 32, 31
   offset: 0, 0
   index: -1
+ TileSets/FantasyHex/Tiles/Desert+Desert Hill+Marble
+  rotate: false
+  xy: 1208, 110
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+ TileSets/FantasyHex/Tiles/Desert+Desert Hill+Quarry
+  rotate: false
+  xy: 1208, 110
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+  
+  
+  
 TileSets/FantasyHex/Tiles/Desert+Desert Hill+Pasture
   rotate: false
   xy: 1215, 583
