@@ -223,7 +223,7 @@
 	},
 	{
 		"name": "Grand Mesa",
-		"type": ["NaturalWonder","TerrainFeature"],
+		"type": "NaturalWonder",
 		"production": 2,
 		"gold": 3,
 		"food": 2,
@@ -231,6 +231,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
+		"uniques": ["Fresh water"],
 		"weight": 10
 	},
 	{
