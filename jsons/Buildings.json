@@ -151,7 +151,7 @@
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1,
-        "uniques": ["[+4 Culture] from [Fresh water] tiles in this city"]
+        "uniques": ["[+4 Culture] from [Fresh water] tiles in this city","[+4 Culture] from [Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game] tiles in this city"]
 
     },
     {
