@@ -635,12 +635,12 @@
 		"replaces": "Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 26,
+		"strength": 21,
+		"rangedStrength": 28,
 		"cost": 120,
 		"requiredTech": "Physics",
-		"obsoleteTech": "Dynamite",
-		"upgradesTo": "Cannon",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Rocket Artillery",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "throw"
 	},
@@ -871,7 +871,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles","Double movement in coast"],
 	},
 	{
 		"name": "Nau", //modded
