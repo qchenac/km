@@ -73,7 +73,7 @@
 		"movement": 20,
 		"strength": 8,
 		"upgradesTo": "Composite Bowman",
-		"cost": 106,
+		"cost": 50,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","Ignores terrain cost"],
