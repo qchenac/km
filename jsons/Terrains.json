@@ -183,111 +183,103 @@
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 50
+		"weight": 10
 	},
 	{
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
-		"science": 4,
-		"food": 2,
+		"science": 2,
 		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	},
 	{
 		"name": "El Dorado",
 		"type": "NaturalWonder",
 		"culture": 5,
-		"food": 2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Grants 500 Gold to the first civilization to discover it"],
-		"weight": 0
+		"weight": 2
 	},
 	{
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
-		"food": 2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"],
-		"weight": 50
+		"weight": 1
 	},
 	{
 		"name": "Grand Mesa",
 		"type": "NaturalWonder",
 		"production": 2,
 		"gold": 3,
-		"food": 2,
 		"occursOn": ["Plains","Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	},
 	{
 		"name": "Mount Fuji",
 		"type": "NaturalWonder",
 		"gold": 1,
-		"food": 2,
 		"culture": 5,
 		"occursOn": ["Grassland","Plains"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	},
 	{
 		"name": "Krakatoa",
 		"type": "NaturalWonder",
-		"science": 8,
-		"food": 2,
+		"science": 5,
 		"occursOn": ["Ocean"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	},
 	{
 		"name": "Rock of Gibraltar",
 		"type": "NaturalWonder",
-		"food": 4,
+		"food": 2,
 		"gold": 5,
 		"occursOn": ["Grassland"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	},
 	{
 		"name": "Cerro de Potosi",
 		"type": "NaturalWonder",
 		"gold": 10,
-		"food": 2,
 		"occursOn": ["Plains","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 5
 	},
 	{
 		"name": "Barringer Crater",
 		"type": "NaturalWonder",
 		"gold": 2,
-		"science": 4,
-		"food": 2,
+		"science": 3,
 		"occursOn": ["Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 0
+		"weight": 10
 	}
 ]	
