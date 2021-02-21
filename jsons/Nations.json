@@ -662,7 +662,7 @@
 			    "[Military] units gain the [Ambition] promotion",
 			     "[Military] units gain the [Invulnerability] promotion",
 			     "[Military] units gain the [Restlessness] promotion",
-			    "Starts with [Satellites]"
+			    "Starts with [Satellites]",
 			    //"-[99]% Gold cost of acquiring tiles [in all cities]",
 			   "+[20]% Production when constructing [Wonders]"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
