@@ -151,8 +151,7 @@
 		"gold": -1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Fresh water"]
+		"occursOn": ["Desert"]
 	},
 	{
 		"name": "Ice",
