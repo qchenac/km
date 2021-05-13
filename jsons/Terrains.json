@@ -20,7 +20,9 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [97,171,58]
+		"defenceBonus": -0.1,
+		"RGB": [97,171,58],
+		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0.5] and [1]", "Open terrain"]
 	},
 	{
 		"name": "Plains",
@@ -29,7 +31,9 @@
 		"production": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [168,185,102]
+		"RGB": [168,185,102],
+		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [0.8] and [1] and humidity between [0.7] and [1]", "Open terrain"]
 	},
 	{
 		"name": "Tundra",
@@ -37,14 +41,16 @@
 		"food": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [189,204,191]
+		"RGB": [189,204,191],
+		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0.5] and [1]", "Open terrain"]
 	},
 	{
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [ 230, 230, 113]
+		"RGB": [ 230, 230, 113],
+		"uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.7]", "Open terrain"]
 	},
 	{
 		"name": "Lakes",
@@ -55,29 +61,34 @@
 		"uniques": ["Fresh water"]
 	},
 	{
-		"name": "Hill",
-		"type": "Land",
-		"production": 2,
-		"movementCost": 2,
-		"defenceBonus": 0.25,
-		"RGB": [105,125,72],
-		"rough": true
-	},
-	{
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
-		"RGB": [120, 120, 120]
+		"RGB": [120, 120, 120],
+		"uniques":["Has an elevation of [4] for visibility calculations"]
 	},
 	{
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [231, 242, 249]
+		"RGB": [231, 242, 249],
+		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0] and [0.5]", "Open terrain"]
 	},
 	
 	// Terrain features
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"uniques": ["Rough terrain", "[+5] Strength for cities built on this terrain",
+			"[+1] Sight for [Land] units", "Has an elevation of [2] for visibility calculations"]
+	},
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
@@ -88,8 +99,8 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
-		"rough": true,
-		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
+		"uniques": ["Provides a one-time Production bonus to the closest city when cut down", "Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation"]
 	},
 	{
 		"name": "Jungle",
@@ -100,7 +111,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
-		"rough": true
+		"uniques": ["Rough terrain", "Blocks line-of-sight from tiles at same elevation"]
 	},
 	{
 		"name": "Marsh",
@@ -110,19 +121,8 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
-		//"uniques": ["Rare feature"]
-	},
-	{
-		"name": "Desert Hill",
-		"type": "TerrainFeature",
-		"production": 2,
-		"movementCost": 2,
-		"unbuildable": true,
-		"defenceBonus": 0.25,
-		"occursOn": ["Desert"],
-		"rough": true,
 		"uniques": ["Rare feature"]
-	}
+	},
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
@@ -148,17 +148,17 @@
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 2,
-		"gold": -1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"]
+		"uniques":["Open terrain"]
 	},
 	{
 		"name": "Ice",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
-		"occursOn": ["Ocean"]
+		"occursOn": ["Ocean", "Coast"]
 	},
 	{
 		"name": "Atoll",
@@ -178,7 +178,7 @@
 		"production": 1,
 		"gold": 1,
 		"science": 2,
-		"occursOn": ["Coast"],
+		"occursOn": ["Ocean"],
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
@@ -187,8 +187,7 @@
 	{
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
-		"science": 4,
-		"food": 2,
+		"science": 2,
 		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 		"turnsInto": "Mountain",
@@ -200,7 +199,6 @@
 		"name": "El Dorado",
 		"type": "NaturalWonder",
 		"culture": 5,
-		"food": 2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
 		"impassable": true,
@@ -212,7 +210,6 @@
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
-		"food": 2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
 		"impassable": true,
@@ -225,7 +222,6 @@
 		"type": "NaturalWonder",
 		"production": 2,
 		"gold": 3,
-		"food": 2,
 		"occursOn": ["Plains","Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -236,7 +232,6 @@
 		"name": "Mount Fuji",
 		"type": "NaturalWonder",
 		"gold": 1,
-		"food": 2,
 		"culture": 5,
 		"occursOn": ["Grassland","Plains"],
 		"turnsInto": "Mountain",
@@ -247,8 +242,7 @@
 	{
 		"name": "Krakatoa",
 		"type": "NaturalWonder",
-		"science": 8,
-		"food": 2,
+		"science": 5,
 		"occursOn": ["Ocean"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -258,7 +252,7 @@
 	{
 		"name": "Rock of Gibraltar",
 		"type": "NaturalWonder",
-		"food": 4,
+		"food": 2,
 		"gold": 5,
 		"occursOn": ["Grassland"],
 		"turnsInto": "Mountain",
@@ -270,7 +264,6 @@
 		"name": "Cerro de Potosi",
 		"type": "NaturalWonder",
 		"gold": 10,
-		"food": 2,
 		"occursOn": ["Plains","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -281,8 +274,7 @@
 		"name": "Barringer Crater",
 		"type": "NaturalWonder",
 		"gold": 2,
-		"science": 4,
-		"food": 2,
+		"science": 3,
 		"occursOn": ["Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
