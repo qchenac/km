@@ -754,7 +754,6 @@
 		"leaderName": "William I",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Domination",
 //		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Hail stalwart Prince William of Orange, liberator of the Netherlands and hero to the Dutch people. It was your courageous effort in the 1568 rebellion against Spanish dominion that led the Dutch to freedom, and ultimately resulted in the Eighty Years' War. Your undertaking allowed for the creation of one of Europe's first modern republics, the Seven United Provinces. You gave your life to the rebellion, falling at the hands of an assassin in 1584, but your death would only serve to embolden the people's charge, and your legacy as 'Father of the Fatherland' will stand as a symbol of Dutch independence for all time.",
@@ -771,7 +770,7 @@
 		"uniqueName": "Dutch East India Company",
 		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource
 		",
-		"uniques": ["Gain a free [~Dutch] [in every city]"],
+		"uniques": ["Gain a free [~Dutch] [in all cities]"],
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
@@ -1154,7 +1153,7 @@
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [185,132,66],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Milan"]
 	},
 	{
@@ -1167,7 +1166,7 @@
 		"defeated": "And so the flower of Florence falls to barbaric hands...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [62,197,252],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Florence"]
 	},
 	{
@@ -1181,7 +1180,7 @@
 		"defeated": "Very well, then... we shall serve you forevermore.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Mombasa"]
 	},
 	{
@@ -1195,7 +1194,7 @@
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [194,97,255],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Antwerp"]
 	},
 	{
@@ -1208,7 +1207,7 @@
 		"defeated": "Pathetic... We can prosper as much as we want, yet we can ultimately fall, no matter what.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Belgrade"]
 	},
 	{
@@ -1222,7 +1221,7 @@
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,97,255],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Tyre"]
 	},
 	{
@@ -1236,7 +1235,7 @@
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,69,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Ur"]
 	},
 	{
@@ -1250,7 +1249,7 @@
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [45,255,86],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Genoa"]
 	},
 	{
@@ -1263,7 +1262,7 @@
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,255,51],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Brussels"]
 	},
 	{
@@ -1276,7 +1275,7 @@
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,0,76],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Kabul"]
 	},
 	{
@@ -1289,7 +1288,7 @@
 		"defeated": "What a fine battle! Sidon is willing to serve you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [250,128,114],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Sidon"]
 	},
 	{
@@ -1302,7 +1301,7 @@
 		"defeated": "How could we fall to the likes of you?!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [152,0,241],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Almaty"]
 	},
 	{
@@ -1315,7 +1314,7 @@
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Sofia"]
 	},
 	{
@@ -1328,7 +1327,7 @@
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Singapore"]
 	},
 	{
@@ -1341,7 +1340,7 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,255],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Zanzibar"]
 	},
 	{
@@ -1354,7 +1353,7 @@
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,204,204],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Sydney"]
 	},
 	{
@@ -1367,7 +1366,7 @@
 		"defeated": "I have failed. May you, at least, know compassion towards our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,153],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Cape Town"]
 	},
 	{
@@ -1380,7 +1379,7 @@
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [151,125,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Kathmandu"]
 	},
 	{
@@ -1393,7 +1392,7 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,0,255],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Hanoi"]
 	},
 	{
@@ -1406,7 +1405,7 @@
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [51,102,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Quebec City"]
 	},
 	{
@@ -1419,7 +1418,7 @@
 		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Helsinki"]
 	},
 	{
@@ -1432,7 +1431,7 @@
 		"defeated": "Today, the Malay people obey you, but do not think this is over...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Kuala Lumpur"]
 	},
 	{
@@ -1445,7 +1444,7 @@
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [96,96,96],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Manila"]
 	},
 	{
@@ -1459,7 +1458,7 @@
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [204,102,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Lhasa"]
 	},
 	{
@@ -1473,7 +1472,7 @@
 		"defeated": "I regret not defending my country to the last, although it was not of use.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,255,128],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Vancouver"]
 	},
 	{
@@ -1486,7 +1485,7 @@
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,128,0],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["M'Banza-Kongo"]
 	},
 	{
@@ -1499,7 +1498,7 @@
 		"defeated": "Congratulations, conquerer. This tribe serves you now.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [224,224,224],
-		"uniques": ["Gain a free [~CS] [in every city]"],
+		"uniques": ["Gain a free [~CS] [in all cities]"],
 		"cities": ["Mogadishu"]
 	},
 	
@@ -1509,7 +1508,8 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0]
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
 	}
 
 ]
