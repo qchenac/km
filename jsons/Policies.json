@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["+[15]% growth in all cities","[+2 Food] [in all cities]"]
+				"uniques": ["+[15]% growth [in all cities]","[+2 Food] [in all cities]"]
 			}
 		]
 	},
@@ -94,7 +94,7 @@
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"uniques":["+[30]% Production when constructing [Melee] units","[Great General] is earned [50]% faster","Free [Great General] appears"],
+				"uniques":["+[30]% Production when constructing [Melee] units [in all cities]","[Great General] is earned [50]% faster","Free [Great General] appears"],
 				"row": 1,
 				"column": 2
 			},
