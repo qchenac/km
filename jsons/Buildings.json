@@ -177,7 +177,9 @@
         "resourceBonusStats": {"food": 1},
         "maintenance": 1,
         "hurryCostModifier": 25,
-        "uniques": ["[+3 Food] from [Land Trade Route (Food)] tiles in this city",
+        "uniques": ["[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city","[+3 Food] from [Land Trade Route (Food)] tiles in this city",
         	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city"],
         "requiredTech": "Pottery"
     },
@@ -376,7 +378,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "resourceBonusStats": {"food": 1},
-        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Ocean] tiles in this city",,"[+1 Food] from [Fish] tiles in this city"],
         "requiredTech": "Optics"
     },
     {
@@ -402,7 +404,9 @@
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[20]% Production when constructing [Mounted] units [in this city]"],
+        "uniques": ["+[20]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles in this city",
+			"[+1 Production] from [Horses] tiles in this city",
+			"[+1 Production] from [Sheep] tiles in this city"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -543,6 +547,7 @@
         "requiredNearbyImprovedResources": ["Gold","Silver"],
         "resourceBonusStats": {"gold": 2},
         "hurryCostModifier": 25,
+	"uniques": ["[+2 Gold] from [Gold Ore] tiles in this city", "[+2 Gold] from [Silver] tiles in this city"],    
         "requiredTech": "Currency"
     },  
     {
@@ -581,6 +586,7 @@
         "requiredNearbyImprovedResources": ["Wine","Incense"],
         "resourceBonusStats": {"culture": 2},
         "hurryCostModifier": 25,
+        "uniques": ["[+2 Culture] from [Wine] in this city","[+2 Culture] from [Incense] tiles in this city"],
         "requiredTech": "Theology"
     },
     {
@@ -702,7 +708,8 @@
         "resourceBonusStats": {"production": 1},
         "requiredTech": "Metal Casting",
         "uniques": ["+[20]% Production when constructing [Land] units [in this city]",
-            "+[15]% Production when constructing [Spaceship part] [in this city]"]
+            "+[15]% Production when constructing [Spaceship part] [in this city]"],
+        	"[+1 Production] from [Iron] tiles in this city"]
     },
     {
         "name": "Harbor",
